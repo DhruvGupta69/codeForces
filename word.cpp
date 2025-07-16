@@ -22,7 +22,9 @@ int main() {
   else
     transform(input.begin(), input.end(), input.begin(), ::tolower);
 
-  cout << input;
+  cout<<input;
+
+
 
   return 0;
 }
